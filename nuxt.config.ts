@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxtjs/tailwindcss', 'motion-v/nuxt'],
+  modules: ['@nuxt/ui', 'motion-v/nuxt'],
   app: {
     head: {
       title: 'Camille Guignon - Portfolio',
@@ -15,6 +15,16 @@ export default defineNuxtConfig({
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap' }
       ]
+    }
+  },
+  ui: {
+    card: {
+      slots: {root: 'rounded-[calc(var(--ui-radius)*3)]'}
+    },
+    button: {
+      slots: {
+        base: ['p-4']
+      }
     }
   },
   router: {
