@@ -88,7 +88,7 @@
       </UCard>
 
       <!-- Section Expériences -->
-      <UCard variant="subtle" class="mb-12">
+      <UCard id="experiences" variant="subtle" class="mb-12">
         <h2 class="section-title">Expériences professionnelles</h2>
 
         <timeline :items="experiences" />
@@ -109,7 +109,7 @@
       </UCard>
 
       <!-- Section Contact -->
-      <UCard variant="subtle" class="mb-12">
+      <UCard id="contact" variant="subtle" class="mb-12">
         <h2 class="section-title">Contact</h2>
 
         <div class="card">
@@ -147,28 +147,21 @@
               </div>
             </div>
             <div>
-              <h3 class="text-xl font-semibold mb-6">Me contacter</h3>
-              <form class="space-y-4">
-                <div>
-                  <label for="name" class="block mb-1 text-gray-600">Nom</label>
-                  <input type="text" id="name"
-                         class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+              <h3 class="text-xl font-semibold mb-6">Mobilité</h3>
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4 shadow-sm">
+                    <span class="text-blue-600">🚗</span>
+                  </div>
+                  <p class="text-neutral-500">Véhiculée - Permis B</p>
                 </div>
-                <div>
-                  <label for="email" class="block mb-1 text-gray-600">Email</label>
-                  <input type="email" id="email"
-                         class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                <div class="flex items-center">
+                  <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-4 shadow-sm">
+                    <span class="text-blue-600">🗺️</span>
+                  </div>
+                  <p class="text-neutral-500">Indre et Loire - Maine et Loire - Sarthe</p>
                 </div>
-                <div>
-                  <label for="message" class="block mb-1 text-gray-600">Message</label>
-                  <textarea id="message" rows="4"
-                            class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
-                </div>
-                <button type="submit"
-                        class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-md">
-                  Envoyer
-                </button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
