@@ -13,14 +13,13 @@
           <div class="md:w-1/3 flex justify-center mb-6 md:mb-0">
             <div
                 class="w-48 h-48 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center shadow-lg">
-              <img src="/img.png" class="rounded-full opacity-80" alt=""/>
+              <img src="/image.png" class="rounded-full opacity-80" alt=""/>
             </div>
           </div>
           <div class="md:w-2/3">
             <h2 class="text-3xl font-bold mb-4 light:text-blue-800">Camille GUIGNON</h2>
             <p class="text-lg mb-6 light:text-gray-600">
-              Sérieuse, motivée et dynamique, je souhaite effectuer une reconversion professionnelle en tant
-              qu'inséminatrice bovine.
+              Sérieuse, motivée et dynamique, je mets à profit mes compétences et mon enthousiasme pour relever de nouveaux défis professionnels.
             </p>
             <div class="flex flex-col sm:flex-row space-x-4">
               <UButton icon="i-lucide-rocket" variant="outline" color="secondary" size="lg"
